@@ -1,0 +1,10 @@
+<PISI>
+    <Name>pardus-mono-apps</Name>
+    <LocalName xml:lang="tr">C# ile yazılmış Mono uygulamaları.</LocalName>
+    <Summary xml:lang="tr">C# ile yazılmış Mono uygulamaları.</Summary>
+    <Description xml:lang="tr">C# ile yazılmış Mono uygulamaları.</Description>
+    <Packager>
+	<Name>Hüseyin ASLITÜRK</Name>
+	<Email>huseyin@asliturk.com</Email>
+    </Packager>
+</PISI>
