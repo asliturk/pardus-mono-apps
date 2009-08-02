@@ -1,0 +1,108 @@
+<PISI>
+    <Package>
+        <Name>f-spot</Name>
+        <Summary xml:lang="en">F-Spot is a full-featured personal photo management application for the GNOME desktop</Summary>
+        <Description xml:lang="en">F-Spot is a full-featured personal photo management application for the GNOME desktop</Description>
+        <IsA>app.gui</IsA>
+        <PartOf>pardus-mono-apps</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency versionFrom="2.4.2">mono</Dependency>
+            <Dependency versionFrom="0.3.2">gnome-doc-utils</Dependency>
+            <Dependency versionFrom="2.24.1">gnome-sharp</Dependency>
+            <Dependency versionFrom="0.6.0">ndesk-dbus</Dependency>
+            <Dependency versionFrom="0.4.1">ndesk-dbus-glib</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2009-07-25</Date>
+                <Version>0.5.0.3</Version>
+                <Comment>First release</Comment>
+                <Name>Hüseyin ASLITÜRK</Name>
+                <Email>huseyin@asliturk.com</Email>
+            </Update>
+        </History>
+        <Distribution>Pardus</Distribution>
+        <DistributionRelease>2009</DistributionRelease>
+        <Architecture>i686</Architecture>
+        <InstalledSize>9742728</InstalledSize>
+        <PackageSize>2424723</PackageSize>
+        <PackageHash>38a0ba087b8cad6c79dd25a7bff507436e97bac5</PackageHash>
+        <PackageURI>f-spot-0.5.0.3-1.pisi</PackageURI>
+        <PackageFormat>1.1</PackageFormat>
+        <Source>
+            <Name>f-spot</Name>
+            <Homepage>http://f-spot.org</Homepage>
+            <Packager>
+                <Name>Hüseyin ASLITÜRK</Name>
+                <Email>huseyin@asliturk.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>ndesk-dbus-glib</Name>
+        <Summary xml:lang="en">ndesk-dbus is a C# implementation of D-Bus</Summary>
+        <Description xml:lang="en">ndesk-dbus is a C# implementation of D-Bus</Description>
+        <IsA>library</IsA>
+        <PartOf>pardus-mono-apps</PartOf>
+        <License>GPLv2</License>
+        <History>
+            <Update release="1">
+                <Date>2009-07-12</Date>
+                <Version>0.4.1</Version>
+                <Comment>First release</Comment>
+                <Name>Hüseyin ASLITÜRK</Name>
+                <Email>huseyin@asliturk.com</Email>
+            </Update>
+        </History>
+        <Distribution>Pardus</Distribution>
+        <DistributionRelease>2009</DistributionRelease>
+        <Architecture>i686</Architecture>
+        <InstalledSize>9662</InstalledSize>
+        <PackageSize>5754</PackageSize>
+        <PackageHash>4cf3b2d14cc9508b4271967bb8139ad58e16d7a1</PackageHash>
+        <PackageURI>ndesk-dbus-glib-0.4.1-1.pisi</PackageURI>
+        <PackageFormat>1.1</PackageFormat>
+        <Source>
+            <Name>ndesk-dbus-glib</Name>
+            <Homepage>http://www.ndesk.org/DBusSharp</Homepage>
+            <Packager>
+                <Name>Hüseyin ASLITÜRK</Name>
+                <Email>huseyin@asliturk.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>ndesk-dbus</Name>
+        <Summary xml:lang="en">ndesk-dbus is a C# implementation of D-Bus</Summary>
+        <Description xml:lang="en">ndesk-dbus is a C# implementation of D-Bus</Description>
+        <IsA>library</IsA>
+        <PartOf>pardus-mono-apps</PartOf>
+        <License>GPLv2</License>
+        <History>
+            <Update release="1">
+                <Date>2009-07-12</Date>
+                <Version>0.6.0</Version>
+                <Comment>First release</Comment>
+                <Name>Hüseyin ASLITÜRK</Name>
+                <Email>huseyin@asliturk.com</Email>
+            </Update>
+        </History>
+        <Distribution>Pardus</Distribution>
+        <DistributionRelease>2009</DistributionRelease>
+        <Architecture>i686</Architecture>
+        <InstalledSize>97792</InstalledSize>
+        <PackageSize>42890</PackageSize>
+        <PackageHash>7dcbb1f8bdd0bc95bbb049616964f48d801e9269</PackageHash>
+        <PackageURI>ndesk-dbus-0.6.0-1.pisi</PackageURI>
+        <PackageFormat>1.1</PackageFormat>
+        <Source>
+            <Name>ndesk-dbus</Name>
+            <Homepage>http://www.ndesk.org/DBusSharp</Homepage>
+            <Packager>
+                <Name>Hüseyin ASLITÜRK</Name>
+                <Email>huseyin@asliturk.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+</PISI>
