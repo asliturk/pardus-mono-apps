@@ -1,5 +1,43 @@
 <PISI>
     <Package>
+        <Name>pdfmod</Name>
+        <Summary xml:lang="en">PDF Mod is a simple tool for modifying PDF documents</Summary>
+        <Description xml:lang="en">PDF Mod is a simple tool for modifying PDF documents</Description>
+        <IsA>app.gui</IsA>
+        <PartOf>pardus-mono-apps</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency versionFrom="2.4.2">mono</Dependency>
+            <Dependency versionFrom="0.3.2">gnome-doc-utils</Dependency>
+            <Dependency versionFrom="2.24.1">gnome-sharp</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2009-08-02</Date>
+                <Version>0.3</Version>
+                <Comment>First release</Comment>
+                <Name>Hüseyin ASLITÜRK</Name>
+                <Email>huseyin@asliturk.com</Email>
+            </Update>
+        </History>
+        <Distribution>Pardus</Distribution>
+        <DistributionRelease>2009</DistributionRelease>
+        <Architecture>i686</Architecture>
+        <InstalledSize>1764205</InstalledSize>
+        <PackageSize>623589</PackageSize>
+        <PackageHash>cc980e2b0b8ab2cf6f0156c9cd8edf3f62acde74</PackageHash>
+        <PackageURI>pdfmod-0.3-1.pisi</PackageURI>
+        <PackageFormat>1.1</PackageFormat>
+        <Source>
+            <Name>pdfmod</Name>
+            <Homepage>http://live.gnome.org/PdfMod</Homepage>
+            <Packager>
+                <Name>Hüseyin ASLITÜRK</Name>
+                <Email>huseyin@asliturk.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>f-spot</Name>
         <Summary xml:lang="en">F-Spot is a full-featured personal photo management application for the GNOME desktop</Summary>
         <Description xml:lang="en">F-Spot is a full-featured personal photo management application for the GNOME desktop</Description>
