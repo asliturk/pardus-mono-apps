@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>f-spot</Name>
+        <Homepage>http://f-spot.org</Homepage>
+        <Packager>
+            <Name>Hüseyin ASLITÜRK</Name>
+            <Email>huseyin@asliturk.com</Email>
+        </Packager>
+        <License>GPLv2</License>
+        <IsA>app.gui</IsA>
+        <Summary>F-Spot is a full-featured personal photo management application for the GNOME desktop</Summary>
+        <Archive sha1sum="9b666c1d38ea765ddbbba56c42eaa721e2f14096" type="tarbz2">http://ftp.gnome.org/Public/GNOME/sources/f-spot/0.5/f-spot-0.5.0.3.tar.bz2</Archive>
+        <BuildDependencies>
+            <Dependency versionFrom="2.4.2">mono</Dependency>
+            <Dependency versionFrom="0.3.2">gnome-doc-utils</Dependency>
+            <Dependency versionFrom="2.24.1">gnome-sharp</Dependency>
+            <Dependency versionFrom="0.6.0">ndesk-dbus</Dependency>
+            <Dependency versionFrom="0.4.1">ndesk-dbus-glib</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>f-spot</Name>
+        <RuntimeDependencies>
+            <Dependency versionFrom="2.4.2">mono</Dependency>
+            <Dependency versionFrom="0.3.2">gnome-doc-utils</Dependency>
+            <Dependency versionFrom="2.24.1">gnome-sharp</Dependency>
+            <Dependency versionFrom="0.6.0">ndesk-dbus</Dependency>
+            <Dependency versionFrom="0.4.1">ndesk-dbus-glib</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+       <Update release="1">
+            <Date>2009-07-25</Date>
+            <Version>0.5.0.3</Version>
+            <Comment>First release</Comment>
+            <Name>Hüseyin ASLITÜRK</Name>
+            <Email>huseyin@asliturk.com</Email>
+        </Update>
+    </History>
+</PISI>
