@@ -52,13 +52,6 @@
             <Dependency versionFrom="0.4.1">ndesk-dbus-glib</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2009-08-26</Date>
-                <Version>0.6.1.1</Version>
-                <Comment>Version update.</Comment>
-                <Name>Hüseyin ASLITÜRK</Name>
-                <Email>huseyin@asliturk.com</Email>
-            </Update>
             <Update release="1">
                 <Date>2009-07-25</Date>
                 <Version>0.5.0.3</Version>
@@ -70,10 +63,10 @@
         <Distribution>Pardus</Distribution>
         <DistributionRelease>2009</DistributionRelease>
         <Architecture>i686</Architecture>
-        <InstalledSize>8540546</InstalledSize>
-        <PackageSize>2682078</PackageSize>
-        <PackageHash>c7003c20083d3eab02561dcf5c2795c9ecad35ef</PackageHash>
-        <PackageURI>f-spot-0.6.1.1-2.pisi</PackageURI>
+        <InstalledSize>9742728</InstalledSize>
+        <PackageSize>2424723</PackageSize>
+        <PackageHash>38a0ba087b8cad6c79dd25a7bff507436e97bac5</PackageHash>
+        <PackageURI>f-spot-0.5.0.3-1.pisi</PackageURI>
         <PackageFormat>1.1</PackageFormat>
         <Source>
             <Name>f-spot</Name>
@@ -85,16 +78,19 @@
         </Source>
     </Package>
     <Package>
-        <Name>ndesk-dbus-glib</Name>
-        <Summary xml:lang="en">ndesk-dbus is a C# implementation of D-Bus</Summary>
-        <Description xml:lang="en">ndesk-dbus is a C# implementation of D-Bus</Description>
-        <IsA>library</IsA>
+        <Name>bareftp</Name>
+        <Summary xml:lang="en">bareFTP is a file transfer client supporting the FTP, FTP over SSL/TLS (FTPS) and SSH File Transfer Protocol (SFTP)</Summary>
+        <Description xml:lang="en">bareFTP is a file transfer client supporting the FTP, FTP over SSL/TLS (FTPS) and SSH File Transfer Protocol (SFTP)</Description>
+        <IsA>app.gui</IsA>
         <PartOf>pardus-mono-apps</PartOf>
         <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency versionFrom="2.24.1">gnome-sharp</Dependency>
+        </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2009-07-12</Date>
-                <Version>0.4.1</Version>
+                <Date>2009-09-06</Date>
+                <Version>0.2.3</Version>
                 <Comment>First release</Comment>
                 <Name>Hüseyin ASLITÜRK</Name>
                 <Email>huseyin@asliturk.com</Email>
@@ -103,14 +99,14 @@
         <Distribution>Pardus</Distribution>
         <DistributionRelease>2009</DistributionRelease>
         <Architecture>i686</Architecture>
-        <InstalledSize>9662</InstalledSize>
-        <PackageSize>5754</PackageSize>
-        <PackageHash>4cf3b2d14cc9508b4271967bb8139ad58e16d7a1</PackageHash>
-        <PackageURI>ndesk-dbus-glib-0.4.1-1.pisi</PackageURI>
+        <InstalledSize>680741</InstalledSize>
+        <PackageSize>175519</PackageSize>
+        <PackageHash>039706988d9f1a3b0c77f9bb57ff071eb902ce3f</PackageHash>
+        <PackageURI>bareftp-0.2.3-1.pisi</PackageURI>
         <PackageFormat>1.1</PackageFormat>
         <Source>
-            <Name>ndesk-dbus-glib</Name>
-            <Homepage>http://www.ndesk.org/DBusSharp</Homepage>
+            <Name>bareftp</Name>
+            <Homepage>http://www.bareftp.org/</Homepage>
             <Packager>
                 <Name>Hüseyin ASLITÜRK</Name>
                 <Email>huseyin@asliturk.com</Email>
@@ -143,6 +139,39 @@
         <PackageFormat>1.1</PackageFormat>
         <Source>
             <Name>ndesk-dbus</Name>
+            <Homepage>http://www.ndesk.org/DBusSharp</Homepage>
+            <Packager>
+                <Name>Hüseyin ASLITÜRK</Name>
+                <Email>huseyin@asliturk.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>ndesk-dbus-glib</Name>
+        <Summary xml:lang="en">ndesk-dbus is a C# implementation of D-Bus</Summary>
+        <Description xml:lang="en">ndesk-dbus is a C# implementation of D-Bus</Description>
+        <IsA>library</IsA>
+        <PartOf>pardus-mono-apps</PartOf>
+        <License>GPLv2</License>
+        <History>
+            <Update release="1">
+                <Date>2009-07-12</Date>
+                <Version>0.4.1</Version>
+                <Comment>First release</Comment>
+                <Name>Hüseyin ASLITÜRK</Name>
+                <Email>huseyin@asliturk.com</Email>
+            </Update>
+        </History>
+        <Distribution>Pardus</Distribution>
+        <DistributionRelease>2009</DistributionRelease>
+        <Architecture>i686</Architecture>
+        <InstalledSize>9662</InstalledSize>
+        <PackageSize>5754</PackageSize>
+        <PackageHash>4cf3b2d14cc9508b4271967bb8139ad58e16d7a1</PackageHash>
+        <PackageURI>ndesk-dbus-glib-0.4.1-1.pisi</PackageURI>
+        <PackageFormat>1.1</PackageFormat>
+        <Source>
+            <Name>ndesk-dbus-glib</Name>
             <Homepage>http://www.ndesk.org/DBusSharp</Homepage>
             <Packager>
                 <Name>Hüseyin ASLITÜRK</Name>

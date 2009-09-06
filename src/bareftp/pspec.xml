@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>bareftp</Name>
+        <Homepage>http://www.bareftp.org/</Homepage>
+        <Packager>
+            <Name>Hüseyin ASLITÜRK</Name>
+            <Email>huseyin@asliturk.com</Email>
+        </Packager>
+        <License>GPLv2</License>
+        <IsA>app.gui</IsA>
+        <Summary>bareFTP is a file transfer client supporting the FTP, FTP over SSL/TLS (FTPS) and SSH File Transfer Protocol (SFTP)</Summary>
+        <Archive sha1sum="2a3527bd337da1ddeb2589aff4bbefa7eb7feefd" type="targz">http://www.bareftp.org/release/bareftp-0.2.3.tar.gz</Archive>
+        <BuildDependencies>
+	    <Dependency versionFrom="2.12">gtk-sharp</Dependency>
+	    <Dependency versionFrom="2.24.1">gnome-sharp</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>bareftp</Name>
+        <RuntimeDependencies>
+            <Dependency versionFrom="2.24.1">gnome-sharp</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+       <Update release="1">
+            <Date>2009-09-06</Date>
+            <Version>0.2.3</Version>
+            <Comment>First release</Comment>
+            <Name>Hüseyin ASLITÜRK</Name>
+            <Email>huseyin@asliturk.com</Email>
+        </Update>
+    </History>
+</PISI>
