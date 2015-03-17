@@ -1,0 +1,1 @@
+C# ile yazılmış Mono uygulamalarını pardusta kurulabilir pisi paketlerinin oluşturulması.
